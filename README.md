@@ -1,1 +1,1 @@
-# Haricube
+# TEAMHARICUBEPremium setups
