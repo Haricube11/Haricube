@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube Lubing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rubik's Cube Lubing Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#advertisement">Special Offers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Need Help with Your Cube?</h2>
+        <p>We offer professional lubing services for your 3x3, 4x4, and larger cubes. Whether you're looking for a faster cube or smoother control, we’ve got you covered!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>3x3 Lubing</h3>
+            <p>Get your 3x3 cube running smoother than ever with our custom lube options designed for fast turns and durability.</p>
+            <button onclick="displayPrice('3x3')">Check Price</button>
+            <p id="price-3x3" class="price"></p>
+        </div>
+        <div class="service">
+            <h3>4x4 Lubing</h3>
+            <p>We offer lube services that improve the speed and corner-cutting ability of your 4x4 cube, making it easier to solve.</p>
+            <button onclick="displayPrice('4x4')">Check Price</button>
+            <p id="price-4x4" class="price"></p>
+        </div>
+        <div class="service">
+            <h3>Big Cube Lubing</h3>
+            <p>Lubing for larger cubes like 5x5 and beyond, designed for smooth performance and optimized for your puzzle size.</p>
+            <button onclick="displayPrice('big')">Check Price</button>
+            <p id="price-big" class="price"></p>
+        </div>
+    </section>
+
+    <section id="advertisement">
+        <h2>Special Offer: 10% Off Your First Lubing!</h2>
+        <p>Use code <strong>LUCKYCUBE</strong> at checkout to get a discount on your first service.</p>
+        <button onclick="window.location.href='https://www.example.com/shop'">Order Now</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rubik's Cube Lubing Services | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
